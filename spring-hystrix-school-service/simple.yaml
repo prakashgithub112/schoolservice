@@ -48,9 +48,3 @@ admin:
     socket_address:
       address: 0.0.0.0
       port_value: 9901
-layered_runtime:
-  layers:
-  - name: disk_layer_0
-    disk_layer:
-      symlink_root: /etc/config/v1
-      subdirectory: envoy
